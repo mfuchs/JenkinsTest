@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    paramters {
+    parameters {
         string(name: 'NAME', defaultValue: 'John Doe', description: 'Your name')
     }
 
